@@ -18,7 +18,7 @@ stages{
 		    script{
 		     def mvnhome = tool 'M3'
            
-              sh "cd my-app && '${mvnhome}/bin/mvn' clean install"
+              sh "'${mvnhome}/bin/mvn' clean install"
             }  
 		    
 			
