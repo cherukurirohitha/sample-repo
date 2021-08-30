@@ -1,0 +1,41 @@
+To start docker after installing docker desktop on windows
+docker run -d -p 80:80 docker/getting-started
+
+
+docker login -u rcheruku -p Password
+docker pull jenkins/jenkins
+docker images
+
+To create new image from base with different name:
+docker tag imagename newimagename
+
+docker mounting local directory to container directory
+docker run -p 8080:8080 -p 50000:50000 -v C://rohithajenkinsws:/var/jenkins_home rohitha/jenkins
+
+
+docker run --name jenkinsnew -p 8081:8080 -p 50000:50000 -v C://rohithajenkinsws:/var/jenkins_home rohitha/jenkins 
+
+docker run --name dockerjenkinscontainer -p 8080:8080 -v C://rohithajenkinsws:/var/jenkins_home docker-jenkins
+
+docker container run -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock jenkins/docker
+
+to login to container
+docker exec -it containerid /bin/bash
+
+login with container as root
+docker exec -it --user root c7 /bin/bash
+
+docker build -t . docker-jenkins
+
+Jenkinscontainer with docker installed
+https://medium.com/@manav503/how-to-build-docker-images-inside-a-jenkins-container-d59944102f30
+
+ploy application to tomcat container
+https://medium.com/@pra4mesh/deploy-war-in-docker-tomcat-container-b52a3baea448
+
+
+Copy files from local to container
+docker cp C:\Users\hello\my-app-1.0-SNAPSHOT.jar c4ce648be7b5:/usr/local/tomcat/webapps 
+
+Install docker on ubuntu
+https://www.educative.io/edpresso/how-to-install-docker-on-ubuntu-1804?aid=5082902844932096&utm_source=google&utm_medium=cpc&utm_campaign=edpresso-dynamic&utm_term=&utm_campaign=Dynamic+-+Edpresso&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=8092184362&hsa_grp=86276435689&hsa_ad=397226000870&hsa_src=g&hsa_tgt=aud-477877425076:dsa-837376625453&hsa_kw=&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw1JeJBhB9EiwAV612yzP-5Q1lSWEydO5MiD9nCykfX43UW_hftAJuRTT-2mxBH100670AsRoCjpUQAvD_BwE
