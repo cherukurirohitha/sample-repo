@@ -39,3 +39,10 @@ docker cp C:\Users\hello\my-app-1.0-SNAPSHOT.jar c4ce648be7b5:/usr/local/tomcat/
 
 Install docker on ubuntu
 https://www.educative.io/edpresso/how-to-install-docker-on-ubuntu-1804?aid=5082902844932096&utm_source=google&utm_medium=cpc&utm_campaign=edpresso-dynamic&utm_term=&utm_campaign=Dynamic+-+Edpresso&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=8092184362&hsa_grp=86276435689&hsa_ad=397226000870&hsa_src=g&hsa_tgt=aud-477877425076:dsa-837376625453&hsa_kw=&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw1JeJBhB9EiwAV612yzP-5Q1lSWEydO5MiD9nCykfX43UW_hftAJuRTT-2mxBH100670AsRoCjpUQAvD_BwE
+
+
+
+Deployment in EKS:
+
+1. Installing jenkins and docker in ubuntu
+https://www.coachdevops.com/2022/01/deploy-springboot-microservices-app_11.html
